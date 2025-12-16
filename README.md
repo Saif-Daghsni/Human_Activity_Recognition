@@ -4,7 +4,7 @@ A complete end-to-end machine learning mobile application that recognizes human 
 
 ## 🎯 Features
 
-- **Real-time Activity Detection**: Classifies 4 activities (sitting, walking, running, jumping) with 100% test accuracy
+- **Real-time Activity Detection**: Classifies 4 activities (sitting, walking, running, jumping) 
 - **Custom Dataset**: Built from scratch using accelerometer and gyroscope data
 - **On-Device ML**: TensorFlow Lite model runs entirely on-device with no internet required
 - **100 Hz Sampling**: Precise sensor data collection at 100 Hz with non-overlapping windows
@@ -14,7 +14,6 @@ A complete end-to-end machine learning mobile application that recognizes human 
 
 - **Model Architecture**: 1D Convolutional Neural Network (CNN)
 - **Input**: 300 samples × 6 features (3-axis accelerometer + 3-axis gyroscope)
-- **Training Accuracy**: 100% on test set
 - **Inference Time**: Real-time predictions every 3 seconds
 - **Data Augmentation**: 20× augmentation with noise injection, scaling, time warping, and rotation
 
@@ -51,16 +50,6 @@ A complete end-to-end machine learning mobile application that recognizes human 
 - Flutter sensor integration and state management
 
 
-## 📈 Model Performance
-
-| Activity | Accuracy |
-|----------|----------|
-| Sitting  | 100%     |
-| Walking  | 100%     |
-| Running  | 100%     |
-| Jumping  | 100%     |
-
-**Overall Test Accuracy: 100%**
 
 ---
 
@@ -74,5 +63,6 @@ Saif Eddine Daghsni
 ## 📱 Demo
 
 (https://drive.google.com/file/d/1Uf-iulvo0rSxP4Vsbkg5Kjf3COpkCFy8/view?usp=sharing)
+
 
 
